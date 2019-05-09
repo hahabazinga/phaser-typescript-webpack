@@ -36,6 +36,9 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    extensions: ['.ts', '.js', '.json']
+  },
   plugins: [
     new CleanWebpackPlugin(["dist"], {
       root: path.resolve(__dirname, "../")
