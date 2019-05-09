@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "module": "CommonJS",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "strict": false
+      },
+    "include": [
+      "src/*", 
+      "index.d.ts",
+      
+    ]
+  }
